@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        Toast.makeText(this, "In onCreate - testing GitHub", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "In onCreate", Toast.LENGTH_SHORT).show();
 
         Log.i("info", "In onCreate");
 
